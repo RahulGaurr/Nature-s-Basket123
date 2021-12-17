@@ -1,0 +1,117 @@
+.orignal_price{
+    text-decoration:line-through;
+    font-weight: lighter;
+    font-size: 25px;
+    color: grey;
+}
+#percentage_off{
+    color: purple;
+    font-size:25px ;
+}
+.percent{
+    color: purple;
+    font-size: 15px;
+}
+#dicount{
+    font-size: 17px;
+    color: grey;
+}
+#delivery{
+    color: grey;
+
+}
+.container{
+    display: grid;
+    gap: 20px;
+    width: 50%;
+    margin-left: 20%;
+    margin-right: 10%;
+    grid-template-columns: auto auto;
+    grid-template-areas: "b1 b2"
+                        "b1 b3"
+                        "b5 b4"
+                        ;
+}
+.box{
+    padding-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+.box1{
+    grid-area: b1;
+    
+    height: 500px;
+    border-radius: 10px;
+    
+    
+}
+.innerbox{
+    grid-area:b2 ;
+    background-color: whitesmoke;
+    
+}
+
+.box4{
+    grid-area:b4 ;
+    
+    background-color: whitesmoke;
+}
+.addToCart{
+    grid-area: b5;
+    background-color: rgb(165, 171, 252);
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.box3{
+    width: 650px;
+    height: 300px;
+    background-image: url(https://images6.alphacoders.com/368/thumb-1920-368872.jpg);
+}
+#nav{
+      background-color: black;
+      width: 100%;
+      height: 70px;
+      margin-bottom: 100px;
+  }
+  #nav1{
+      width: 100%;
+      height: 100px;
+      text-align: center;
+      border: 2px solid red;
+      margin-bottom: 5%;
+      background-color: royalblue;
+  }
+  .butt{
+      width: 10%;
+      height:95%;
+      color: white;
+      font-size: 20px;
+      background-color: black;
+      transform: translateY(-30px);
+  }      
+  #search_nav{
+      width: 30%;
+      height: 80%;
+      border-radius: 20px;
+      transform: translateY(-30px);
+     
+  }
+  #nav_sele{
+      width: 10%;
+      height: 100%;
+      background-color: black;
+      color: white  ;
+      font-size: 26px;
+      border: 2px solid black;
+      transform: translateY(-30px);
+  }
+  .butt1{
+      background-color: black;
+      margin-left: 100px;
+      height: 50%;
+      border: 2px solid black;
+  }
+    

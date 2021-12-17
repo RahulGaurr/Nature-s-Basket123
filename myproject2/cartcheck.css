@@ -1,0 +1,81 @@
+.box{
+    background-color: whitesmoke;
+    display: inline-block;
+    height: 500px;
+    width: 48%;
+    margin: auto;
+    vertical-align: top;
+ }
+ .box1{
+    height: 370px;
+    margin-left: 10%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 8px;
+   
+ }
+ hr{
+    margin: 0;
+    padding: 0;
+ }
+ .prod{
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 7%;
+    margin-left: 8%;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 30px;
+ }
+ img{
+    height:120px ;
+ }
+ span{
+    color: gray;
+ }
+ #supplier{
+    color: gray;
+    padding-left: 20px;
+ }
+ .box2{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding-left:30px ;
+    width: 300px;
+    margin-left: 50px;
+ }
+ p{
+    color: grey;
+ }
+ .leftA{
+    padding-left: 45px;
+    text-align: left;
+    color:rgb(189, 10, 189);
+ }
+ .ls{
+    padding-left: 74px;
+ }
+ .ld{
+    padding-left: 10px;
+ }
+ #body{
+    background-image: url(https://images8.alphacoders.com/103/1030841.jpg);
+ }
+ .lm{
+    padding-left: 26px;
+ }
+ button{
+    background-color: #116406;
+    border: none;
+    height: 40px;
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius:5px ;
+    color: white;
+ }
+ #sp{
+    color: rgb(189, 10, 189);
+ }
+ #t_price{
+    padding-left: 50px;
+ }

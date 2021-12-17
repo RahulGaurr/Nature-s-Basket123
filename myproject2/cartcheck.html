@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+   <link rel="stylesheet" href="cartcheck.css">
+      
+</head>
+<body id="body">
+    
+
+    <!-- head html part end -->
+
+
+    <div class="container">
+        <h1 style="margin-left: 10%; padding-top: 40px; font-size: 90px;color: white;">Cart:</h1>
+        <div class="box box1">
+            <img class="prod" id="pro_img" src="https:via.placeholder.com/80x100" alt="">
+            <p class="prod" > <span id="prod_name">Product_name</span> 
+             
+              <span>Qty: </span><span id="product_qty">1</span> <br> 
+              <br>
+              <span>₹ </span><span class="product_price" id="product_price">180</span>
+            </p>
+         <hr>
+        </div>
+        <div class="box box2">
+            <h1>Price Details</h1>
+            <p>
+                Product Charge <span>₹</span> <span class="product_price leftA" id="t_price">180</span>
+            </p>
+            <p>
+                Delivery Charge <span class="leftA">+₹80</span>
+            </p>
+            <p>
+                COD Charge <span class="leftA ls">+₹0</span>
+            </p>
+            <p>
+                1st Order Discount <span class="leftA lm">-₹ 100</span>
+            </p>
+            <hr>
+            <h2>
+                Order Total <span>₹</span> <span id="total_price" class="leftA ld">206</span>
+            </h2>
+            <p style="font-size:13px;">Clicking on ‘Continue’ will not deduct any money</p>
+            <a href="payment1.html"><button>Continue</button></a>
+    
+        </div>
+    </div>
+    <script src="cartcheck.js"></script>
+</body>
+</html>

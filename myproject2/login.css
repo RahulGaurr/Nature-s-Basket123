@@ -1,0 +1,73 @@
+#login-container{
+    width: 40%;
+    height: 1000px;
+    margin: auto;
+    /* border: 1px solid red; */
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 30%;
+    margin-top: 70px;
+    background-color: rgb(245, 245, 241);
+   
+  }
+  #p{
+    font-size: 30px;
+    margin-left: 60%;
+  }
+  #email{
+    width: 730px;
+    height: 80px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5%;
+  }
+  #head{
+    font-weight: bolder;
+    margin-left: 10%;
+    color:rgb(139, 4, 156);
+    font-size: 50px;
+  }
+  #password{
+    width: 730px;
+    height: 80px;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 5%;
+  }
+  #loginform{
+      margin-left: 10%;
+  }
+  #btn1{
+    width: 450px;
+
+    height: 70px;
+    background-color: rgb(2, 2, 7);
+    color: white;
+    font-size: 40px;
+    margin-left: 22%;
+
+    margin-top: 5%;
+  
+  }
+  #btn1:hover{
+      background-color: rgb(59, 15, 253);
+  }
+  #creat{
+    width: 450px;
+    height: 70px;
+    background-color: rgb(8, 4, 4);
+    color: white;
+    font-size: 30px;
+    margin-left: 22%;
+    margin-top: 10px;
+  }
+  #creat:hover{
+    background-color:rgb(7, 7, 138);
+  }
+  .lable{
+    font-size: 60px;
+ text-align: center;
+ margin: auto;
+ color: red;
+    font-weight: bold;
+  }
