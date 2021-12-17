@@ -5,6 +5,10 @@
     margin: auto;
     text-align: center;
 }
+#body{
+    background-color: cyan;
+
+}
 h1{
     padding-left: 10px;
     color: purple;
