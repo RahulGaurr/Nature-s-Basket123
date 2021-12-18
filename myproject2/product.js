@@ -8,7 +8,7 @@ var data = JSON.parse(localStorage.getItem("allproduct")) || [
     },
     {
         image_url:"https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/f341c972-bc85-4b0d-8309-6bdaa4fd0cad_425x425.JPG",
-        product_n:"Grapes Red globle - Imported",
+        product_n:"Grapes Red globle -Imported",
         price:"800",
         button:"Add to cart",
   

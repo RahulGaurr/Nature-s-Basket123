@@ -1,31 +1,43 @@
+body{
+    width: 100%;
+}
+
+
+
+
 #startdiv{
     padding-left: 50px;
+    text-align: center;
+    font-size: 35px;
 }
 #container{
     display: grid;
     gap: 10px;
-    grid-template-columns: 500px 500px 500px 500px;
-    width: 98%;
+    
+    grid-template-columns: 600px 600px 600px 600px;
+    width: 80%;
+    margin: auto;
     padding-left: 15px;
 }
 #container>div{
     width: 20% 20% 20% 20%;
-    border: 1px solid rgb(240, 238, 235);
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    
+        border: 1px solid rgb(240, 238, 235);
+    box-shadow: rgba(9, 203, 252, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
     margin:10px;
 }
 button{
-    background-color: green;
+    background-color:green;
     color: rgb(250, 243, 243);
     font-size: 26px;
-    width: 80%;
-    height: 15%;
-    transform: translateY(-20px);
+    width: 160%;
+    height: 35%;
+   transform: translatey(1px);
 }
 
 .box{
-    max-width: 300px;
-    height: 500px;
+    max-width: 500px;
+    height: 550px;
     font-size: 20px;
 }
 .innerbox{
@@ -41,10 +53,13 @@ button{
 }
 p{
     line-height: 20px;
+    font-size: 22px;
 }
 #product_name{
     color: grey;
-    font-size: 17px;
+    font-size: 29px;
+    color: red;
+    transform: translateY(-10px);
 }
 #product_price{
     font-weight: bold;

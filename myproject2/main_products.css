@@ -2,8 +2,11 @@
     text-decoration:line-through;
     font-weight: lighter;
     font-size: 25px;
+    height: 500px;
     color: grey;
+
 }
+
 #percentage_off{
     color: purple;
     font-size:25px ;
@@ -24,6 +27,7 @@
     display: grid;
     gap: 20px;
     width: 50%;
+    
     margin-left: 20%;
     margin-right: 10%;
     grid-template-columns: auto auto;
@@ -35,25 +39,31 @@
 .box{
     padding-left: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   
+    height: 400px;
     
 }
 .box1{
     grid-area: b1;
-    
-    height: 500px;
+   
+    height: 700px;
+    width: 100%;
     border-radius: 10px;
+    margin-left: -20%;
     
     
 }
 .innerbox{
     grid-area:b2 ;
     background-color: whitesmoke;
+   
+    font-size: 60px;
     
 }
 
 .box4{
     grid-area:b4 ;
-    
+      font-size: 35px;
     background-color: whitesmoke;
 }
 .addToCart{
@@ -61,9 +71,12 @@
     background-color: rgb(165, 171, 252);
     height: 30px;
     border-radius: 10px;
+    height: 100px;
+    font-size: 40px;
     text-align: center;
     padding-top: 10px;
     font-weight: bold;
+    margin-left: -40%;
 }
 .box3{
     width: 650px;
@@ -82,7 +95,7 @@
       text-align: center;
       border: 2px solid red;
       margin-bottom: 5%;
-      background-color: royalblue;
+      background-color: rgb(126, 126, 247);
   }
   .butt{
       width: 10%;
@@ -104,7 +117,7 @@
       height: 100%;
       background-color: black;
       color: white  ;
-      font-size: 26px;
+      font-size: 106px;
       border: 2px solid black;
       transform: translateY(-30px);
   }
